@@ -1,11 +1,8 @@
----
 applications:
-- name: SimpleSentimentAnalysis-demo
-  framework: node
-  runtime: node08
+  name: SentimentAnalysis
   mem: 64M
   instances: 1
-  command: node app.js    #The command to use to start the application
-  host: SimpleSentimentAnalysis-${random-word}
+  command: node app.js
+  host: sentimentanalysis-${random-word}
   domain: ng.bluemix.net
-  path: .   
+  path: .
