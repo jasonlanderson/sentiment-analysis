@@ -2,6 +2,8 @@
 
 ![Ambivalent Smiley](http://simplesentimentanalysis.ng.bluemix.net/images/content.png "Ambivalent Smiley")
 
+We forked [this](https://hub.jazz.net/project/srich/Sentiment%20Analysis%20App/overview) project to use Git hosting and the continuous integration deployment pipeline.
+
 Sample application demonstrating how to build a sentiment analysis app usind Node.js and a couple modules.  
 The application takes a keyword or hashtag, connects to Twitter to get a stream of matching tweets, 
 and runs those tweets through a sentiment-analysis module to produce a sentiment score.
