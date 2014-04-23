@@ -47,7 +47,7 @@ app.get('/sentiment', function (req, res) {
 app.post('/sentiment', function (req, res) {
 	try {
 		if (req.body.phrase) {
-	    	beginMonitoring(req.body.phrase);
+			beginMonitoring(req.body.phrase);
 			res.send(200);			
 		} else {
 			res.status(400).send('Invalid request: send {"phrase": "bieber"}');		
