@@ -1,3 +1,5 @@
+var processManifest = require("./tasks/process-manifest.js");
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -12,5 +14,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('process-manifest', processManifest);
+  grunt.registerTask('default', ['jshint', 'process-manifest']);
 };
