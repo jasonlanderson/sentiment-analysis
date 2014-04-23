@@ -15,5 +15,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.registerTask('process-manifest', processManifest);
-  grunt.registerTask('default', ['process-manifest']);
+  grunt.registerTask('default', ['jshint', 'process-manifest']);
 };
