@@ -147,7 +147,7 @@ app.get('/testSentiment', function (req, res) {
 		"</HEAD>\n" +
 		"<BODY>\n" +
 		"<P>\n" +
-		"Welcome to the Twitter Sentiment Analysis app.  What phrase would you like to analzye?\n" +
+		"Welcome to the Twitter Sentiment Analysis app.  What phrase would you like to analyze?\n" +
 		"</P>\n" +
 		"<FORM action=\"/testSentiment\" method=\"get\">\n" +
 		"<P>\n" +
